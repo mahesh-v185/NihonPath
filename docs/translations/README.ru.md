@@ -12,7 +12,7 @@
 ## Звездная история
 ![GitHub Stars](https://github.com/user-attachments/assets/de26975d-ce19-4a56-be00-84470d4607e2)
 
-**Эстетичная, минималистичная и легко настраиваемая платформа для изучения японского языка, вдохновленная Monkeytype.**
+**Эстетичная, минималистичная и легко настраиваемая платформа для изучения японского языка.**
 
 [![Live Demo](https://img.shields.io/badge/demo-NihonPath.com-blue?style=for-the-badge)](https://NihonPath.com)
 [![DeepWiki](https://img.shields.io/badge/docs-DeepWiki-purple?style=for-the-badge)](https://deepwiki.com/lingdojo/kana-dojo)

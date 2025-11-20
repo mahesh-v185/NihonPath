@@ -76,14 +76,6 @@ const themes: ThemeGroup[] = [
     icon: Moon,
     themes: [
       {
-        id: 'monkeytype',
-        backgroundColor: 'hsla(210, 5%, 22%, 1)',
-        cardColor: 'hsla(220, 5%, 27%, 1)',
-        borderColor: 'hsla(220, 5%, 35%, 1)',
-        mainColor: 'hsla(49, 82%, 49%, 1)',
-        secondaryColor: 'hsla(49, 14%, 81%, 1)',
-      },
-      {
         id: 'nord',
         backgroundColor: 'hsl(220, 16%, 23%)',
         cardColor: 'hsl(220, 16%, 30%)',

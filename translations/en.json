@@ -1,7 +1,7 @@
 {
   "MenuInfo": {
     "greeting": "Welcome to NihonPath!",
-    "description": "NihonPath is an aesthetic, minimalist platform for learning Japanese inspired by Monkeytype.",
+    "description": "NihonPath is an aesthetic, minimalist platform for learning Japanese.",
     "instructions": "To begin, select a dojo and start training now!"
   }
 }

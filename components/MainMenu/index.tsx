@@ -4,13 +4,9 @@ import { Link } from '@/i18n/routing';
 import Banner from './Banner';
 import Info from '@/components/reusable/Menu/Info';
 import {
-  ScrollText,
-  FileLock2,
-  Cookie,
   Sun,
   Moon,
   Sparkle,
-  Keyboard,
 } from 'lucide-react';
 import clsx from 'clsx';
 import { useClick } from '@/hooks/useAudio';
@@ -60,12 +56,6 @@ const MainMenu = () => {
     // }
   ];
 
-  const legalLinks = [
-    { name: 'terms', href: '/terms', icon: ScrollText },
-    { name: 'privacy', href: '/privacy', icon: Cookie },
-    { name: 'security', href: '/security', icon: FileLock2 },
-    // { name: 'patch notes', href: '/patch-notes', icon: FileDiff }
-  ];
 
   return (
     <div
@@ -92,26 +82,6 @@ const MainMenu = () => {
             }}
           >
             <Sparkle />
-          </Button>
-          <Button
-            variant="secondary"
-            size="icon"
-            className={clsx(
-              'fixed top-4 left-4 z-50 opacity-90',
-              buttonBorderStyles,
-              'transition-transform duration-250 active:scale-95'
-            )}
-            onClick={() => {
-              playClick();
-            }}
-          >
-            <a
-              href="https://monkeytype.com/"
-              rel='noopener'
-              target="_blank"
-            >
-              <Keyboard />
-            </a>
           </Button>
         </Suspense>
       )}
@@ -222,26 +192,6 @@ const MainMenu = () => {
             </Fragment>
           ))}
         </div>
-      </div>
-      <div
-        className={clsx(
-          'fixed bottom-3 flex flex-row gap-2',
-          'max-md:bg-[var(--card-color)] rounded-xl z-50',
-          'opacity-90',
-          expandDecorations && 'hidden'
-        )}
-      >
-        {legalLinks.map((link, i) => (
-          <Link
-            href={link.href}
-            key={i}
-            className="p-2 text-sm hover:cursor-pointer  rounded-2xl flex flex-row gap-1 items-center text-[var(--secondary-color)] hover:text-[var(--main-color)]"
-            onClick={() => playClick()}
-          >
-            <link.icon className="size-4" />
-            <span>{link.name}</span>
-          </Link>
-        ))}
       </div>
     </div>
   );
