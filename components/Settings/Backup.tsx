@@ -15,10 +15,10 @@ const Backup: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'kanadojo-backup.json';
+    a.download = 'NihonPath-backup.json';
     a.click();
     URL.revokeObjectURL(url);
-    setMessage('Exported to kanadojo-backup.json');
+    setMessage('Exported to NihonPath-backup.json');
   };
 
   const onFilePicked = async (file: File) => {

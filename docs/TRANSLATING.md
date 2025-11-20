@@ -1,4 +1,4 @@
-# This is the basic directories, files and workflow to translate KanaDojo using `next-intl` internationalization tool.
+# This is the basic directories, files and workflow to translate NihonPath using `next-intl` internationalization tool.
 
 ## Packages.
 
@@ -18,7 +18,7 @@ This **/i18n/** directory will host more essential functions for the `translatio
 
 The described `initial translation management system` enables the developer to change:
 
-`<p>Welcome to KanaDojo!</p>`
+`<p>Welcome to NihonPath!</p>`
 
 to
 
@@ -38,7 +38,7 @@ Above functions are provided by `next-inl` package and **can only be used inside
 
 if **/translations/es.json** holds:
 
-`{ "MenuInfo": { "greeting": "¡Bienvenido a KanaDojo!"...} }`
+`{ "MenuInfo": { "greeting": "¡Bienvenido a NihonPath!"...} }`
 
 the usage of `const t = useTranslations('MenuInfo')` will store the queried property and all of its nested properties can be thus accessed in `t`.
 
@@ -48,6 +48,6 @@ The developer can now implement
 
 and expect
 
-`<p>¡Bienvenido a KanaDojo!</p>`
+`<p>¡Bienvenido a NihonPath!</p>`
 
 to be actually rendered if the locale of Spanish 'es' is provided by the system.

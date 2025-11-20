@@ -3,7 +3,7 @@ const privacyPolicy = `
 
 **Effective Date:** 04/03/2025 (March 4th, 2025)
 
-Welcome to KanaDojo ("Website", "we", "us", "our").
+Welcome to NihonPath ("Website", "we", "us", "our").
 
 The following document outlines the privacy policy for our Website. By using our Website, you automatically agree to the terms of this policy.
 
@@ -70,7 +70,7 @@ If you have any questions about this Privacy Policy, you can contact us at:
 lingdojo.dev@gmail.com
 
 
-**Thank you for using KanaDojo!** 🚀  
+**Thank you for using NihonPath!** 🚀  
 
 `;
 

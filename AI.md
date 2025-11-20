@@ -4,7 +4,7 @@ This file provides guidance to GitHub Copilot (https://github.com/features/copil
 
 ## Project Overview
 
-KanaDojo is a Next.js-based Japanese learning application focused on training Kana (Hiragana/Katakana), Kanji, and Vocabulary. The app provides multiple game modes and customizable practice sessions.
+NihonPath is a Next.js-based Japanese learning application focused on training Kana (Hiragana/Katakana), Kanji, and Vocabulary. The app provides multiple game modes and customizable practice sessions.
 
 ## Development Commands
 

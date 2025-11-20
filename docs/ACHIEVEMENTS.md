@@ -207,4 +207,4 @@ When adding new achievements:
 4. Update documentation
 5. Consider performance impact
 
-The achievement system is designed to be extensible and maintainable, encouraging continued learning and engagement with the KanaDojo platform.
+The achievement system is designed to be extensible and maintainable, encouraging continued learning and engagement with the NihonPath platform.

@@ -1,18 +1,18 @@
 <div id="top"></div>
 
-**KanaDojo está disponível em vários idiomas graças às contribuições da comunidade:**
+**NihonPath está disponível em vários idiomas graças às contribuições da comunidade:**
 
 [English](../../README.md)  **/**  [Español](docs/translations/README.es.md) **/** [Français (in progress)](docs/translations/README.fr.md)  **/** [Deutsch](docs/translations/README.de.md) **/** Português **/** [Türkçe](docs/translations/README.tr.md) **/** [中文（简体）](docs/translations/README.zh-CN.md) **/** [中文（繁體）](docs/translations/README.zh-tw.md) **/**  [हिन्दी](docs/translations/README.hin.md)  **/**  <span dir="ltr">[العربية](docs/translations/README.ar.md)</span>  **/**  [Русский](docs/translations/README.ru.md)
 
-# KanaDojo かな道場
+# NihonPath かな道場
 
 <div align="center">
 
-![KanaDojo Banner](https://github.com/user-attachments/assets/b7931764-be5e-43c7-b1b3-9d2568b2fecf)
+![NihonPath Banner](https://github.com/user-attachments/assets/b7931764-be5e-43c7-b1b3-9d2568b2fecf)
 
 **Uma plataforma estética, minimalista e altamente personalizável para dominar o japonês**
 
-[![Live Demo](https://img.shields.io/badge/demo-kanadojo.com-blue?style=for-the-badge)](https://kanadojo.com)
+[![Live Demo](https://img.shields.io/badge/demo-NihonPath.com-blue?style=for-the-badge)](https://NihonPath.com)
 [![License](https://img.shields.io/badge/license-AGPL--v3-blue)](LICENSE.md)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
@@ -22,11 +22,11 @@
 
 ---
 
-## 📖 Sobre o KanaDojo
+## 📖 Sobre o NihonPath
 
-KanaDojo é uma plataforma web envolvente de aprendizado de japonês que torna o domínio de Hiragana, Katakana, Kanji e Vocabulário divertido e intuitivo. Construída com foco em estética, personalização e aprendizado eficaz, KanaDojo oferece um ambiente de treinamento imersivo para estudantes de japonês de todos os níveis.
+NihonPath é uma plataforma web envolvente de aprendizado de japonês que torna o domínio de Hiragana, Katakana, Kanji e Vocabulário divertido e intuitivo. Construída com foco em estética, personalização e aprendizado eficaz, NihonPath oferece um ambiente de treinamento imersivo para estudantes de japonês de todos os níveis.
 
-Seja você apenas começando com os silabários kana básicos ou se preparando para os exames JLPT com kanji e vocabulário avançados, KanaDojo oferece uma experiência de aprendizado simplificada e livre de distrações que se adapta às suas preferências e estilo de aprendizagem.
+Seja você apenas começando com os silabários kana básicos ou se preparando para os exames JLPT com kanji e vocabulário avançados, NihonPath oferece uma experiência de aprendizado simplificada e livre de distrações que se adapta às suas preferências e estilo de aprendizagem.
 
 ### ✨ Recursos Principais
 
@@ -94,7 +94,7 @@ Cada dojo suporta quatro modos de treinamento envolventes para reforçar o apren
 
 ## 🎨 UI & Filosofia de Design
 
-KanaDojo abraça uma **estética minimalista** combinada com **máxima flexibilidade**. A filosofia de design se concentra em:
+NihonPath abraça uma **estética minimalista** combinada com **máxima flexibilidade**. A filosofia de design se concentra em:
 
 ### Minimalismo em Primeiro Lugar
 
@@ -128,7 +128,7 @@ KanaDojo abraça uma **estética minimalista** combinada com **máxima flexibili
 
 ## 🛠️ Stack Tecnológico
 
-KanaDojo é construído com tecnologias web modernas para desempenho ideal e experiência do desenvolvedor:
+NihonPath é construído com tecnologias web modernas para desempenho ideal e experiência do desenvolvedor:
 
 ### Framework Principal
 
@@ -182,8 +182,8 @@ KanaDojo é construído com tecnologias web modernas para desempenho ideal e exp
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/lingdojo/kanadojo.git
-   cd kanadojo
+   git clone https://github.com/lingdojo/NihonPath.git
+   cd NihonPath
    ```
 
 2. **Instale as dependências**
@@ -325,7 +325,7 @@ PORT=3001 npm run dev
 ## 📁 Estrutura do Projeto
 
 ```
-kanadojo/
+NihonPath/
 ├── app/                          # Páginas do Next.js App Router
 │   ├── kana/                    # Páginas do dojo de Kana
 │   │   └── train/[gameMode]/   # Páginas de treinamento para cada modo de jogo
@@ -416,7 +416,7 @@ Cada modo de jogo é uma rota dinâmica (`/[contentType]/train/[gameMode]`) que:
 
 ## 🤝 Contribuindo
 
-Contribuições são bem-vindas! KanaDojo é um projeto de código aberto construído pela comunidade, para a comunidade.
+Contribuições são bem-vindas! NihonPath é um projeto de código aberto construído pela comunidade, para a comunidade.
 
 ### Como Contribuir
 
@@ -446,14 +446,14 @@ Este projeto está licenciado sob a Licença AGPL 3.0 - veja o arquivo [LICENSE.
 
 - Dados do idioma japonês e informações de caracteres
 - Comunidade de código aberto pelas ferramentas e bibliotecas incríveis
-- Todos os contribuidores que ajudam a tornar o KanaDojo melhor
+- Todos os contribuidores que ajudam a tornar o NihonPath melhor
 
 ---
 
 ## 📞 Contato e Links
 
-- **Website**: [kanadojo.com](https://kanadojo.com)
-- **Repositório**: [github.com/lingdojo/kanadojo](https://github.com/lingdojo/kanadojo)
+- **Website**: [NihonPath.com](https://NihonPath.com)
+- **Repositório**: [github.com/lingdojo/NihonPath](https://github.com/lingdojo/NihonPath)
 - **Email**: lingdojo.dev@gmail.com
 
 ---

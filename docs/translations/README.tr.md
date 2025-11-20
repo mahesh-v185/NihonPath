@@ -1,19 +1,19 @@
 <div id="top"></div>
 
-**KanaDojo, topluluk katkıları sayesinde birden çok dilde mevcuttur:**
+**NihonPath, topluluk katkıları sayesinde birden çok dilde mevcuttur:**
 
 [English](../../README.md)  **/**  [Español](docs/translations/README.es.md) **/** [Français (in progress)](docs/translations/README.fr.md)  **/** [Deutsch](docs/translations/README.de.md) **/** [Português](docs/translations/README.pt-br.md) **/** Türkçe **/** [中文（简体）](docs/translations/README.zh-CN.md) **/** [中文（繁體）](docs/translations/README.zh-tw.md) **/**  [हिन्दी](docs/translations/README.hin.md)  **/**  <span dir="ltr">[العربية](docs/translations/README.ar.md)</span>  **/**  [Русский](docs/translations/README.ru.md)
 
-# KanaDojo かな道場
+# NihonPath かな道場
 
 <div align="center">
 
-![KanaDojo Banner](https://github.com/user-attachments/assets/b7931764-be5e-43c7-b1b3-9d2568b2fecf)
+![NihonPath Banner](https://github.com/user-attachments/assets/b7931764-be5e-43c7-b1b3-9d2568b2fecf)
 ![GitHub Stars](https://github.com/user-attachments/assets/de26975d-ce19-4a56-be00-84470d4607e2)
 
 **Japonca öğrenmek için estetik, minimalist ve son derece özelleştirilebilir bir platform**
 
-[![Live Demo](https://img.shields.io/badge/demo-kanadojo.com-blue?style=for-the-badge)](https://kanadojo.com)
+[![Live Demo](https://img.shields.io/badge/demo-NihonPath.com-blue?style=for-the-badge)](https://NihonPath.com)
 [![License](https://img.shields.io/badge/license-AGPL--v3-blue)](LICENSE.md)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
@@ -21,11 +21,11 @@
 
 </div>
 
-## 📖 KanaDojo Hakkında
+## 📖 NihonPath Hakkında
 
-KanaDojo, Hiragana, Katakana, Kanji ve kelime bilgisinde ustalaşmayı eğlenceli ve kolay hale getiren etkileşimli bir web tabanlı Japonca öğrenme platformudur. Estetiğe, özelleştirilebilirliğe ve etkili öğrenmeye odaklanılarak tasarlanan KanaDojo, her seviyeden Japonca öğrencisi için kapsamlı bir eğitim ortamı sunar.
+NihonPath, Hiragana, Katakana, Kanji ve kelime bilgisinde ustalaşmayı eğlenceli ve kolay hale getiren etkileşimli bir web tabanlı Japonca öğrenme platformudur. Estetiğe, özelleştirilebilirliğe ve etkili öğrenmeye odaklanılarak tasarlanan NihonPath, her seviyeden Japonca öğrencisi için kapsamlı bir eğitim ortamı sunar.
 
-İster daha yeni kana hecelerini öğrenmeye başlıyor olun, isterseniz de ileri düzey kanji ve kelimeler ile JLPT sınavlarına hazırlanıyor olun, KanaDojo akıcı, dikkat dağıtıcı öğelerden uzak sizin tercihlerinize ve öğrenme tarzınıza uyum sağlayan bir öğrenme deneyimi sunar.
+İster daha yeni kana hecelerini öğrenmeye başlıyor olun, isterseniz de ileri düzey kanji ve kelimeler ile JLPT sınavlarına hazırlanıyor olun, NihonPath akıcı, dikkat dağıtıcı öğelerden uzak sizin tercihlerinize ve öğrenme tarzınıza uyum sağlayan bir öğrenme deneyimi sunar.
 
 ### ✨ Öne Çıkan Özellikler
 
@@ -91,7 +91,7 @@ Her dojo, öğrenmeyi pekiştirmek için dört ilgi çekici eğitim modunu deste
 
 ## 🎨 Arayüz & Tasarım Felsefesi
 
-KanaDojo, maksimum esneklikle birleştirilmiş minimalist bir estetiği benimser. Tasarım felsefesinin merkezinde şunlar yer alır:
+NihonPath, maksimum esneklikle birleştirilmiş minimalist bir estetiği benimser. Tasarım felsefesinin merkezinde şunlar yer alır:
 
 ### Minimalizm Öncelikli
 
@@ -123,7 +123,7 @@ KanaDojo, maksimum esneklikle birleştirilmiş minimalist bir estetiği benimser
 
 ## 🛠️ Kullanılan Teknolojiler
 
-KanaDojo, en iyi performans ve geliştirici deneyimi için modern web teknolojileri ile geliştirilmiştir:
+NihonPath, en iyi performans ve geliştirici deneyimi için modern web teknolojileri ile geliştirilmiştir:
 
 ### Çekirdek Framework
 
@@ -175,8 +175,8 @@ KanaDojo, en iyi performans ve geliştirici deneyimi için modern web teknolojil
 1. **Depoyu klonlayın**
 
    ```bash
-   git clone https://github.com/lingdojo/kanadojo.git
-   cd kanadojo
+   git clone https://github.com/lingdojo/NihonPath.git
+   cd NihonPath
    ```
 
 2. **Bağımlılıkları yükleyin**
@@ -318,7 +318,7 @@ PORT=3001 npm run dev
 ## 📁 Proje Yapısı
 
 ```
-kanadojo/
+NihonPath/
 ├── app/                          # Next.js App Router sayfaları
 │   ├── kana/                    # Kana dojo sayfaları
 │   │   └── train/[gameMode]/   # Her oyun modu için eğitim sayfaları
@@ -416,7 +416,7 @@ Her oyun modu, aşağıdaki işlevleri yerine getiren dinamik bir yoldur (`/[con
 
 ## 🤝 Katkıda Bulunma
 
-Katkılarınızı bekliyoruz! KanaDojo, topluluk tarafından topluluk için geliştirilen açık kaynaklı bir projedir. Nasıl katkıda bulunacağınıza dair daha ayrıntılı bilgi için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına göz atın.
+Katkılarınızı bekliyoruz! NihonPath, topluluk tarafından topluluk için geliştirilen açık kaynaklı bir projedir. Nasıl katkıda bulunacağınıza dair daha ayrıntılı bilgi için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına göz atın.
 
 ### Nasıl Katkıda Bulunulur?
 
@@ -442,12 +442,12 @@ Bu proje AGPL 3.0 Lisansı altında lisanslanmıştır - ayrıntılar için [LIC
 
 - Japonca dil verileri ve karakter bilgileri
 - Harika araçlar ve kütüphaneler için açık kaynak topluluğu
-- KanaDojo'yu daha iyi hale getirmek için katkı katkıda bulunanlar
+- NihonPath'yu daha iyi hale getirmek için katkı katkıda bulunanlar
 
 ## 📞 İletişim & Bağlantılar
 
-- **Web sitesi**: [kanadojo.com](https://kanadojo.com)
-- **Depo**: [github.com/lingdojo/kanadojo](https://github.com/lingdojo/kanadojo)
+- **Web sitesi**: [NihonPath.com](https://NihonPath.com)
+- **Depo**: [github.com/lingdojo/NihonPath](https://github.com/lingdojo/NihonPath)
 - **E-posta**: lingdojo.dev@gmail.com
 
 ---

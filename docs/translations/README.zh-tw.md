@@ -1,18 +1,18 @@
 <div id="top"></div>
 
-**KanaDojo 感謝社群貢獻，支持多種語言：**
+**NihonPath 感謝社群貢獻，支持多種語言：**
 
 [English(default)](../../README.md)  **/**  [Español](docs/translations/README.es.md) **/** [Français (in progress)](docs/translations/README.fr.md)  **/** [Deutsch](docs/translations/README.de.md) **/** [Português](docs/translations/README.pt-br.md) **/** [Türkçe](docs/translations/README.tr.md) **/** [中文（简体）](docs/translations/README.zh-CN.md) **/**  中文（繁體） **/**  [हिन्दी](docs/translations/README.hin.md)  **/**  <span dir="ltr">[العربية](docs/translations/README.ar.md)</span>  **/** [Русский](docs/translations/README.ru.md)
 
-# KanaDojo かな道場
+# NihonPath かな道場
 
 <div align="center">
 
-![KanaDojo Banner](https://github.com/user-attachments/assets/b7931764-be5e-43c7-b1b3-9d2568b2fecf)
+![NihonPath Banner](https://github.com/user-attachments/assets/b7931764-be5e-43c7-b1b3-9d2568b2fecf)
 
 **美學極簡、高度自訂化的日語精通平台**
 
-[![Live Demo](https://img.shields.io/badge/demo-kanadojo.com-blue?style=for-the-badge)](https://kanadojo.com)
+[![Live Demo](https://img.shields.io/badge/demo-NihonPath.com-blue?style=for-the-badge)](https://NihonPath.com)
 [![License](https://img.shields.io/badge/license-AGPL--v3-blue)](LICENSE.md)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
@@ -22,11 +22,11 @@
 
 ---
 
-## 📖 關於 KanaDojo
+## 📖 關於 NihonPath
 
-KanaDojo 是一個互動式網頁版的日語學習平台，讓您能以有趣且直覺的方式學習平假名、片假名、漢字和詞彙。KanaDojo 專注於美學設計、豐富自訂與高效學習，為所有程度的日語學習者提供一個沉浸式的訓練環境。
+NihonPath 是一個互動式網頁版的日語學習平台，讓您能以有趣且直覺的方式學習平假名、片假名、漢字和詞彙。NihonPath 專注於美學設計、豐富自訂與高效學習，為所有程度的日語學習者提供一個沉浸式的訓練環境。
 
-無論您是剛開始學習基礎的假名表，還是準備 JLPT 考試需要的進階漢字與詞彙學習，KanaDojo 提供簡潔流暢、免受干擾的學習體驗，以適應您的個人學習偏好。
+無論您是剛開始學習基礎的假名表，還是準備 JLPT 考試需要的進階漢字與詞彙學習，NihonPath 提供簡潔流暢、免受干擾的學習體驗，以適應您的個人學習偏好。
 
 ### ✨ 主要功能
 
@@ -94,7 +94,7 @@ KanaDojo 是一個互動式網頁版的日語學習平台，讓您能以有趣�
 
 ## 🎨 使用者介面與設計理念
 
-KanaDojo 秉持結合**極簡美學**與**最大彈性**的理念，其核心設計理念如下：
+NihonPath 秉持結合**極簡美學**與**最大彈性**的理念，其核心設計理念如下：
 
 ### 極簡優先
 
@@ -128,7 +128,7 @@ KanaDojo 秉持結合**極簡美學**與**最大彈性**的理念，其核心設
 
 ## 🛠️ 技術棧
 
-KanaDojo 採現代化網頁技術打造，以提供最佳效能與開發者體驗：
+NihonPath 採現代化網頁技術打造，以提供最佳效能與開發者體驗：
 
 ### 核心框架
 
@@ -182,8 +182,8 @@ KanaDojo 採現代化網頁技術打造，以提供最佳效能與開發者體�
 1. **Clone 專案**
 
    ```bash
-   git clone https://github.com/lingdojo/kanadojo.git
-   cd kanadojo
+   git clone https://github.com/lingdojo/NihonPath.git
+   cd NihonPath
    ```
 
 2. **安裝相依套件**
@@ -325,7 +325,7 @@ PORT=3001 npm run dev
 ## 📁 專案架構
 
 ```
-kanadojo/
+NihonPath/
 ├── app/                          # Next.js App Router 頁
 │   ├── kana/                    # 假名道場頁面
 │   │   └── train/[gameMode]/   # 各練習模式的訓練頁面
@@ -416,7 +416,7 @@ kanadojo/
 
 ## 🤝 貢獻
 
-歡迎貢獻！KanaDojo 是一個開放原始碼專案，由社群打造、為社群服務，更多貢獻資訊請參考 [CONTRIBUTING.md](CONTRIBUTING.md)。
+歡迎貢獻！NihonPath 是一個開放原始碼專案，由社群打造、為社群服務，更多貢獻資訊請參考 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ### 如何貢獻
 
@@ -446,14 +446,14 @@ kanadojo/
 
 - 日文語言資料與字元資訊的來源
 - 開源社群提供的優秀工具與函式庫
-- 所有讓 KanaDojo 變得更好的貢獻者
+- 所有讓 NihonPath 變得更好的貢獻者
 
 ---
 
 ## 📞 聯絡資訊與鏈結
 
-- **網站**：[kanadojo.com](https://kanadojo.com)
-- **儲存庫**：[github.com/lingdojo/kanadojo](https://github.com/lingdojo/kanadojo)
+- **網站**：[NihonPath.com](https://NihonPath.com)
+- **儲存庫**：[github.com/lingdojo/NihonPath](https://github.com/lingdojo/NihonPath)
 - **電子郵件**: lingdojo.dev@gmail.com
 
 ---

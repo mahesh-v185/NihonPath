@@ -3,12 +3,12 @@ const securityPolicy = `
 
 **Effective Date:** 04/03/2025 (March 4th, 2025)
 
-At **KanaDojo**, we take security seriously and strive to protect our website and users from potential threats. Although our website does not collect personal user data directly, we implement security measures to safeguard our platform.
+At **NihonPath**, we take security seriously and strive to protect our website and users from potential threats. Although our website does not collect personal user data directly, we implement security measures to safeguard our platform.
 
 
 ## 1. Scope
 
-This Security Policy applies to the **KanaDojo** website (kanadojo.com), including its infrastructure, content, and third-party services used (such as Google Analytics).
+This Security Policy applies to the **NihonPath** website (NihonPath.com), including its infrastructure, content, and third-party services used (such as Google Analytics).
 
 
 ## 2. Website Security Practices
@@ -41,7 +41,7 @@ If you discover a security vulnerability on our website, we encourage responsibl
 If you believe you have found a security issue, please contact us immediately via:
 
 - 📧 **Email:** langdojo.dev@outlook.com
-- 📩 **Bug Report Form:** kanadojo.com/report 
+- 📩 **Bug Report Form:** NihonPath.com/report 
 
 We appreciate **ethical hacking and responsible disclosure** and will investigate reported vulnerabilities promptly.
 
@@ -75,7 +75,7 @@ For any questions or concerns about this Security Policy, you can reach us at:
 
 ---
 
-**Thank you for helping KanaDojo maintain a safe and secure website! 🚀**  
+**Thank you for helping NihonPath maintain a safe and secure website! 🚀**  
 `;
 
 export default securityPolicy;

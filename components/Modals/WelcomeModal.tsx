@@ -109,7 +109,7 @@ const WelcomeModal = () => {
                 id='welcome-modal-title'
                 className='text-3xl font-bold text-[var(--main-color)]'
               >
-                Welcome to KanaDojo!
+                Welcome to NihonPath!
               </h2>
               <p className='text-lg text-[var(--secondary-color)]'>
                 Let&apos;s personalize your learning experience
@@ -457,7 +457,7 @@ const WelcomeModal = () => {
                 All Set!
               </h2>
               <p className='text-lg text-[var(--secondary-color)]'>
-                Your KanaDojo is now personalized
+                Your NihonPath is now personalized
               </p>
             </div>
 

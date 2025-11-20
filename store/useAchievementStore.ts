@@ -359,7 +359,7 @@ const useAchievementStore = create<AchievementState>()(
       }
     }),
     {
-      name: 'kanadojo-achievements',
+      name: 'NihonPath-achievements',
       partialize: (state) => ({
         unlockedAchievements: state.unlockedAchievements,
         notifications: state.notifications,

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://kanadojo.com', // Replace with your site's URL
+  siteUrl: process.env.SITE_URL || 'https://NihonPath.com', // Replace with your site's URL
   generateRobotsTxt: true, // This line enables robots.txt generation
   // You can add other sitemap configuration options here
   // For example:

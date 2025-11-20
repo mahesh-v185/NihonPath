@@ -17,11 +17,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kanadojo.com'),
+  metadataBase: new URL('https://NihonPath.com'),
   manifest: '/manifest.json',
-  title: 'KanaDojo',
+  title: 'NihonPath',
   description:
-    'KanaDojo is a fun, aesthetic, minimalist platform for learning and practicing Japanese online.',
+    'NihonPath is a fun, aesthetic, minimalist platform for learning and practicing Japanese online.',
   icons: {
     icon: [
       { url: '/favicon.ico?v=2' },
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
   keywords:
     'learn japanese, learn hiragana, learn katakana, learn kana, learn japanese kana, hiragana practice, katakana practice, learn kanji, kanji practice online, kana learning, japanese online lessons, japanese writing system',
   openGraph: {
-    title: 'KanaDojo',
+    title: 'NihonPath',
     description:
-      'KanaDojo is a fun, aesthetic, minimalist platform for learning and practicing Japanese online.',
-    url: 'https://kanadojo.com',
+      'NihonPath is a fun, aesthetic, minimalist platform for learning and practicing Japanese online.',
+    url: 'https://NihonPath.com',
     type: 'website',
     locale: 'en_US',
   },

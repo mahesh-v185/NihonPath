@@ -3,8 +3,8 @@ import AchievementProgress from '@/components/Progress/AchievementProgress';
 import Sidebar from '@/components/reusable/Menu/Sidebar';
 
 export const metadata: Metadata = {
-  title: 'Achievements - KanaDojo',
-  description: 'Track your learning progress and unlock achievements in KanaDojo',
+  title: 'Achievements - NihonPath',
+  description: 'Track your learning progress and unlock achievements in NihonPath',
 };
 
 export default function AchievementsPage() {

@@ -2,7 +2,7 @@ import ProgressWithSidebar from '@/components/Progress/ProgressWithSidebar';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'KanaDojo: Progress',
+  title: 'NihonPath: Progress',
   description: 'Track your Japanese learning progress and see detailed statistics.',
 };
 

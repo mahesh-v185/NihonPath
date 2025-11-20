@@ -249,7 +249,7 @@ resetTimedStats: () => {
 
     }),
     {
-      name: 'kanadojo-stats',
+      name: 'NihonPath-stats',
       partialize: (state) => ({
         allTimeStats: state.allTimeStats
       })
