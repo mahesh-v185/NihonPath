@@ -15,7 +15,7 @@ const PostWrapper = ({ textContent }: { textContent: string }) => {
   return (
     <div className="min-h-[100dvh] max-w-[100dvw] px-4 pb-10 sm:px-8 md:px-20 xl:px-66">
       <Banner />
-      <Link href="/" className="w-full md:w-1/3 lg:w-1/4">
+      <Link href={"/" as Parameters<typeof Link>[0]['href']} className="w-full md:w-1/3 lg:w-1/4">
         <button
           onClick={() => playClick()}
           className={clsx(

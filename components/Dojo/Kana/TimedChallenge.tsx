@@ -212,7 +212,7 @@ export default function TimedChallengeKana() {
             Please select some kana characters first to begin the timed
             challenge.
           </p>
-          <Link href='/kana'>
+          <Link href={'/kana' as Parameters<typeof Link>[0]['href']}>
             <Button className='bg-[var(--secondary-color)] hover:bg-[var(--main-color)] duration-250'>
               <ArrowLeft size={16} className='mr-2' />
               Select Kana
@@ -284,7 +284,7 @@ export default function TimedChallengeKana() {
             <Play size={16} className='mr-2' />
             Start Challenge
           </Button>
-          <Link href='/kana' className='block'>
+          <Link href={'/kana' as Parameters<typeof Link>[0]['href']} className='block'>
             <Button variant='outline' className='w-full'>
               <ArrowLeft size={16} className='mr-2' />
               Back to Selection
@@ -491,7 +491,7 @@ export default function TimedChallengeKana() {
                 <RotateCcw size={16} className='mr-2' />
                 Try Again
               </Button>
-              <Link href='/kana' className='block'>
+              <Link href={'/kana' as Parameters<typeof Link>[0]['href']} className='block'>
                 <Button variant='outline' className='w-full'>
                   <ArrowLeft size={16} className='mr-2' />
                   Back to Selection

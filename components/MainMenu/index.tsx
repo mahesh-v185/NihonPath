@@ -32,7 +32,11 @@ const MainMenu = () => {
     setIsMounted(true);
   }, []);
 
-  const links = [
+  const links: Array<{
+    name_en: string;
+    name_ja: string;
+    href: string;
+  }> = [
     {
       name_en: 'Kana',
       name_ja: 'あ',
@@ -148,7 +152,7 @@ const MainMenu = () => {
           {links.map((link, i) => (
             <Fragment key={i}>
               <Link
-                href={link.href}
+                href={link.href as Parameters<typeof Link>[0]['href']}
                 className={clsx('w-full overflow-hidden')}
               >
                 <button

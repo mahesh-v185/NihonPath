@@ -28,7 +28,7 @@ const Sidebar = () => {
       } else if (event.key.toLowerCase() === 'h') {
         homeButtonRef.current?.click();
       } else if (event.key.toLowerCase() === 'p') {
-        router.push('/preferences');
+        router.push('/preferences' as Parameters<typeof router.push>[0]);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
@@ -63,7 +63,7 @@ const Sidebar = () => {
         </span>
       </h1>
       <Link
-        href='/'
+        href={'/' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:p-3 rounded-xl  lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/'
@@ -76,7 +76,7 @@ const Sidebar = () => {
         <span className='max-lg:hidden'>Home</span>
       </Link>
       <Link
-        href='/kana'
+        href={'/kana' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:px-3 max-lg:py-2 rounded-xl  lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/kana'
@@ -89,7 +89,7 @@ const Sidebar = () => {
       </Link>
 
       <Link
-        href='/vocabulary'
+        href={'/vocabulary' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:px-3 max-lg:py-2 rounded-xl lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/vocabulary'
@@ -101,7 +101,7 @@ const Sidebar = () => {
         語<span className='max-lg:hidden'> Vocabulary</span>
       </Link>
       <Link
-        href='/kanji'
+        href={'/kanji' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:px-3 max-lg:py-2 rounded-xl lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/kanji'
@@ -113,7 +113,7 @@ const Sidebar = () => {
         字<span className='max-lg:hidden'> Kanji</span>
       </Link>
       <Link
-        href='/progress'
+        href={'/progress' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:px-3 max-lg:py-2 rounded-xl lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/progress'
@@ -126,7 +126,7 @@ const Sidebar = () => {
         <span className='max-lg:hidden'>Progress</span>
       </Link>
       <Link
-        href='/achievements'
+        href={'/achievements' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:px-3 max-lg:py-2 rounded-xl lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/achievements'
@@ -139,7 +139,7 @@ const Sidebar = () => {
         <span className='max-lg:hidden'>Achievements</span>
       </Link>
       <Link
-        href='/preferences'
+        href={'/preferences' as Parameters<typeof Link>[0]['href']}
         className={clsx(
           'text-2xl  duration-250 transition-all lg:py-2 lg:px-4 max-lg:px-3 max-lg:py-2 rounded-xl lg:w-full flex max-lg:justify-center items-center gap-2',
           pathWithoutLocale === '/preferences'

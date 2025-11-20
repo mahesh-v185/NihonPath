@@ -3,7 +3,11 @@ import Banner from '@/components/reusable/Menu/Banner';
 import clsx from 'clsx';
 
 const Academy = () => {
-  const links = [
+  const links: Array<{
+    title: string;
+    href: string;
+    description: string;
+  }> = [
     {
       title: 'Hiragana 101',
       href: '/academy/hiragana-101',
@@ -36,7 +40,7 @@ const Academy = () => {
       <div className="w-full grid grid-cols-2 gap-10 flex-1 md:flex-none">
         {links.map((link, i) => (
           <Link
-            href={link.href}
+            href={link.href as Parameters<typeof Link>[0]['href']}
             key={i}
           >
             <button

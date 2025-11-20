@@ -105,7 +105,7 @@ export function ErrorFallback({
                   Reload Page
                 </Button>
                 
-                <Link href="/" className="block">
+                <Link href={"/" as Parameters<typeof Link>[0]['href']} className="block">
                   <Button variant="outline" className="w-full">
                     <Home size={16} className="mr-2" />
                     Go to Home

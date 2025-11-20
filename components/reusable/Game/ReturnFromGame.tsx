@@ -45,7 +45,7 @@ const Return = ({ isHidden, href }: { isHidden: boolean; href: string }) => {
       )}
     >
       <Link
-        href={href}
+        href={href as Parameters<typeof Link>[0]['href']}
         className=""
         ref={buttonRef}
         onClick={() => {

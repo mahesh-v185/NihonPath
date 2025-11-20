@@ -165,7 +165,7 @@ const TopBar: React.FC<ITopBarProps> = ({
         />
 
         <Link
-          href={`${pathWithoutLocale}/train/${selectedGameMode}`}
+          href={`${pathWithoutLocale}/train/${selectedGameMode}` as Parameters<typeof Link>[0]['href']}
           className="w-1/2 group"
         >
           <button
@@ -198,7 +198,7 @@ const TopBar: React.FC<ITopBarProps> = ({
       {/* Timed Challenge Button - Only for Kana */}
       {pathWithoutLocale === '/kana' && (
         <Link
-          href={`${pathWithoutLocale}/timed-challenge`}
+          href={`${pathWithoutLocale}/timed-challenge` as Parameters<typeof Link>[0]['href']}
           className="w-full"
         >
           <button
