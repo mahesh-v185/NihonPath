@@ -1,5 +1,5 @@
 'use client';
-import { SquareCheck, SquareX, Star, Coffee } from 'lucide-react';
+import { SquareCheck, SquareX, Star } from 'lucide-react';
 import { MousePointerClick, Keyboard, MousePointer } from 'lucide-react';
 import clsx from 'clsx';
 import { cardBorderStyles } from '@/static/styles';
@@ -78,24 +78,6 @@ const GameIntel = ({
               <Keyboard className="scale-y-[-1] text-[var(--main-color)]" />
             )}
             <span>{gameMode}</span>
-
-            <button
-              className={clsx(
-                'py-2.5 px-8 text-xl flex flex-row justify-center items-center gap-2',
-                miniButtonBorderStyles,
-                'group flex-1 ',
-                'text-[var(--main-color)]'
-              )}
-              onClick={() => {
-                playClick();
-                window.open('https://ko-fi.com/kanadojo', '_blank');
-              }}
-            >
-              <Coffee
-                size={24}
-                className="motion-safe:animate-pulse"
-              />
-            </button>
           </p>
         </div>
 

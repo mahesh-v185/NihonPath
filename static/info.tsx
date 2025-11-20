@@ -22,19 +22,6 @@ export default function translationGen(t: (key: string) => string) {
           <p className='text-lg text-[var(--secondary-color)]'>
             {t('instructions')}
           </p>
-          {/*         <p className='text-sm text-[var(--secondary-color)]'>
-          Want to support an independent project built by the community, for the
-          community, and help KanaDojo continue growing? Then please consider
-          donating{' '}
-          <Link
-            href='https://ko-fi.com/kanadojo'
-            target='_blank'
-            className='underline'
-          >
-            here
-          </Link>{' '}
-          - thank you!
-        </p> */}
           <DevNotice />
         </>
       )
