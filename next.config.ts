@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/NihonPath' : '',
+  basePath: '/NihonPath',
   images: {
     unoptimized: true,
   },
